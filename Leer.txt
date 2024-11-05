@@ -1,0 +1,34 @@
+Queridos Estudiantes,
+
+Espero que estén disfrutando de su viaje de aprendizaje en nuestra clase de programación. Quiero felicitarlos por el impresionante progreso que han logrado, especialmente en su último proyecto o ejercicio. ¡Estoy muy emocionado por lo que están logrando!
+
+He visto un gran esfuerzo y dedicación en su trabajo, y eso no pasa desapercibido. Cada línea de código que escriben, cada desafío que enfrentan y cada pregunta que hacen son pasos importantes en su camino hacia convertirse en programadores talentosos.
+
+Recuerden que la programación es una habilidad que se mejora con la práctica constante, por lo que cuanto más tiempo pasen programando y experimentando, más sólidos serán sus conocimientos y habilidades.
+
+Les dejo un regalito con Recursos para Seguir Aprendiendo:
+
+W3Schools (https://www.w3schools.com/): Esta es una excelente fuente para aprender sobre tecnologías web, incluyendo PHP, HTML, CSS y más. Les recomendaría usar W3Schools como una referencia confiable y como una plataforma para practicar ejercicios interactivos.
+
+PHP.net (https://www.php.net/): El sitio web oficial de PHP es una fuente invaluable de información. Pueden encontrar la documentación completa de PHP, ejemplos de código y tutoriales. Es un recurso esencial para profundizar en PHP.
+
+GitHub (https://github.com/): GitHub es una plataforma de desarrollo colaborativo que también ofrece una gran cantidad de repositorios públicos de proyectos en PHP y otros lenguajes. Pueden explorar el código fuente de proyectos reales para aprender de ejemplos prácticos.
+
+YouTube: Hay muchos canales de YouTube dedicados a la programación web y PHP. Algunos de ellos ofrecen tutoriales en video que pueden ser muy útiles para aprender visualmente.
+
+Practicar y construir proyectos propios: Uno de los mejores enfoques para aprender es la práctica. Los animo a aplicar lo que han aprendido en la creación de sus propios proyectos web y a desafiarse a sí mismos resolviendo problemas reales.(Como les comente en clases hoy)
+
+Estoy aquí para apoyarlos en cada paso del camino. Si tienen preguntas, inquietudes o simplemente quieren hablar sobre su progreso, no duden en comunicarse conmigo.
+
+Sigan adelante con confianza, porque están haciendo un trabajo fantástico. ¡Estoy emocionado por lo que el futuro les depara en el mundo de la programación!
+
+Una vez más, ¡felicitaciones por sus logros hasta ahora!
+
+Saludos cordiales,
+
+Profe Guille
+
+
+
+
+

@@ -1,0 +1,36 @@
+/* Estilo para el cuerpo (body) de la página */
+body {
+    font-family: Arial, sans-serif; /* Fuente utilizada en el texto */
+    margin: 20px; /* Margen exterior de 20 píxeles en todas las direcciones */
+}
+
+/* Estilo para los formularios (form) */
+form {
+    border: 1px solid #ccc; /* Borde con un grosor de 1 píxel y color gris claro (#ccc) */
+    padding: 20px; /* Espaciado interno de 20 píxeles */
+    width: 300px; /* Ancho del formulario de 300 píxeles */
+}
+
+/* Estilo para las etiquetas (label) */
+label {
+    display: block; /* Cambia la presentación de etiquetas a bloque (una debajo de la otra) */
+    margin-bottom: 5px; /* Margen inferior de 5 píxeles para separar etiquetas */
+}
+
+/* Estilo para los campos de entrada (input) */
+input {
+    width: 100%; /* Ancho del campo de entrada al 100% del contenedor */
+    padding: 5px; /* Espaciado interno de 5 píxeles para el contenido del campo */
+    margin-bottom: 10px; /* Margen inferior de 10 píxeles para separar campos */
+}
+
+/* Estilo para listas no ordenadas (ul) */
+ul {
+    list-style-type: none; /* Elimina los marcadores de lista */
+    padding: 0; /* Elimina el relleno en la lista */
+}
+
+/* Estilo para elementos de lista (li) */
+li {
+    margin-bottom: 5px; /* Margen inferior de 5 píxeles para separar elementos de la lista */
+}
