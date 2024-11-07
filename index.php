@@ -8,6 +8,10 @@
 <body>
     <h1>Factura</h1>
     <form action="guardar_factura.php" method="post">
+        <!-- Etiqueta y campo para el código -->
+        <label for="codigo">Código:</label>
+        <input type="text" name="codigo" id="codigo" required><br>
+
         <!-- Etiqueta y campo para el nombre del cliente -->
         <label for="cliente">Cliente:</label>
         <input type="text" name="cliente" id="cliente" required><br>
@@ -39,8 +43,11 @@
             // Divide la línea en un arreglo utilizando el carácter '|' como separador
             $datos = explode('|', $factura);
 
+         // Calcula el total (cantidad * precio)
+         $total = $datos[3] * $datos[4];
+
             // Imprime los datos de cada factura en una lista
-            echo "<li>{$datos[0]} - {$datos[1]} - {$datos[2]} - {$datos[3]}</li>";
+            echo "<li>Código: {$datos[0]} -Cliente: {$datos[1]} - Producto: {$datos[2]} - Cantidad: {$datos[3]} - Precio unitario: {$datos[4]} - Total: {$total}</li>";
         }
         ?>
     </ul>
