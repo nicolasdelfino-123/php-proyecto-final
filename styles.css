@@ -2,13 +2,17 @@
 body {
     font-family: Arial, sans-serif; /* Fuente utilizada en el texto */
     margin: 20px; /* Margen exterior de 20 píxeles en todas las direcciones */
+   
 }
 
 /* Estilo para los formularios (form) */
 form {
     border: 1px solid #ccc; /* Borde con un grosor de 1 píxel y color gris claro (#ccc) */
-    padding: 20px; /* Espaciado interno de 20 píxeles */
+    /* agregué padding rigth */
+    padding: 20px 30px 20px 20px ; /* Espaciado interno de 20 píxeles */ 
     width: 300px; /* Ancho del formulario de 300 píxeles */
+    background-color: rgb(112, 161, 145);
+   
 }
 
 /* Estilo para las etiquetas (label) */
