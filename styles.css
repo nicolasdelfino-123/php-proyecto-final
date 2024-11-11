@@ -1,8 +1,15 @@
 /* Estilo para el cuerpo (body) de la página */
+html{
+    
+    color: #001233;
+}
+
 body {
-    font-family: Arial, sans-serif; /* Fuente utilizada en el texto */
-    margin: 20px; /* Margen exterior de 20 píxeles en todas las direcciones */
-   
+    font-family: sans-serif; /* Fuente utilizada en el texto */
+    margin: 20px solid #dfbaba; /* Margen exterior de 20 píxeles en todas las direcciones */
+    text-align: center;
+    background-color: #0466c8; 
+    
 }
 
 /* Estilo para los formularios (form) */
@@ -12,7 +19,10 @@ form {
     padding: 20px 30px 20px 20px ; /* Espaciado interno de 20 píxeles */ 
     width: 300px; /* Ancho del formulario de 300 píxeles */
     background-color: rgb(112, 161, 145);
+    display: inline-block;
+    background-color: #979dac;
    
+    
 }
 
 /* Estilo para las etiquetas (label) */
@@ -37,4 +47,19 @@ ul {
 /* Estilo para elementos de lista (li) */
 li {
     margin-bottom: 5px; /* Margen inferior de 5 píxeles para separar elementos de la lista */
+}
+
+/* estilos */
+
+.titulo{
+    font-family: sans-serif;
+    font-weight: 600;
+    font-style: oblique;
+    text-shadow: 2px 2px 5px rgba(82, 53, 53, 0.8);
+    font-size: 55px;
+      
+}
+
+.guardar input[type="submit"]:hover {
+    background-color: #45a049; /* Color de fondo al pasar el mouse */
 }

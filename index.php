@@ -4,9 +4,14 @@
     <title>Formulario de Factura</title>
     <!-- Incluye una hoja de estilo CSS externa para dar formato a la página -->
     <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Poppins:ital\
+,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;\
+1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Factura</h1>
+    <h1 class="titulo"><em>Huellitas</em></h1>
     <form action="guardar_factura.php" method="post">
         <!-- Etiqueta y campo para el código -->
         <label for="codigo">Código:</label>
@@ -29,10 +34,12 @@
         <input type="number" name="precio" id="precio" required><br>
 
         <!-- Botón para enviar el formulario y guardar la factura -->
+         <div class="guardar">
         <input type="submit" value="Guardar Factura">
+        </div>
     </form>
 
-    <h2>Facturas Guardadas</h2>
+    <h2><u>Facturas Guardadas</u></h2>
     <ul>
         <?php
         // Lee el contenido del archivo 'facturas.txt' y lo almacena en la variable $facturas
@@ -47,7 +54,7 @@
          $total = $datos[3] * $datos[4];
 
             // Imprime los datos de cada factura en una lista
-            echo "<li>Código: {$datos[0]} -Cliente: {$datos[1]} - Producto: {$datos[2]} - Cantidad: {$datos[3]} - Precio unitario: {$datos[4]} - Total: {$total}</li>";
+            echo "<li><b><u>Código:</u></b> {$datos[0]} - <b><u>Cliente:</u></b> {$datos[1]} - <b><u>Producto:</u></b> {$datos[2]} - <b><u>Cantidad:</u></b> {$datos[3]} - <b><u>Precio unitario:</u></b> {$datos[4]} - <b><u>Total:</u></b> {$total}</li>";
         }
         ?>
     </ul>
